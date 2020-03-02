@@ -1,0 +1,61 @@
+This coursework was made by Vlad Niculescu, studentd ID: 29654556.
+
+All parts of the coursework have been attempted, including 1 extension.
+
+
+How to operate the Enigma Machine:
+
+	Each test of the coursework is coded into the machine. To run each test, the user has to
+	uncomment the specific part of the test that needs to be ran and comment back all the other
+	parts. To help the user, all parts of the tests have been surrounded by comment blocks.
+	After each test, the comments should be added back so that they don't interfere with the other tests.
+	The input is written in the 'Input.txt' file on 1 line
+
+	Test 1:
+		-in the EnigmaMachine class, start() method, uncomment the code for TEST 1 (lines 91-109)
+		-in the EnigmaFile class, print() method, uncomment "System.out.println(sentence);" (line 54)
+		-in the Main class, uncomment "printer.print(machine);" (line 16)
+		
+		#The output of the first test is BADGER
+	TEST 2:
+		-in the EnigmaMachine class, start() method, uncomment the code for TEST 2 (lines 111-130)
+		-in the EnigmaFile class, print() method, uncomment "System.out.println(sentence);" (line 54)
+		-in the Main class, uncomment "printer.print(machine);" (line 16)
+
+		#The output of the second test is SNAKE
+	TEST 3:
+		-in the EnigmaMachine class, start() method, uncomment the code for TEST 3 (lines 132-151)
+		-in the EnigmaFile class, print() method, uncomment "System.out.println(sentence);" (line 54)
+		-in the Main class, uncomment "printer.print(machine);" (line 16)
+
+		#The output of the third test is THEQUICKBROWNFOXJUMPEDOVERTHELAZYDOG
+	CHALLENGE 1:
+		-in the EnigmaMachine class, start() method, uncomment the code for CHALLENGE 1 (lines 153-167)
+		-in the EnigmaFile class, print() method, uncomment the conditional print for the word "ANSWER" (line 56-68)
+		-in the Main class, uncomment "bombeMachine.plugTester(machine);" (line 17)
+
+		#There are several outputs containing the word "ANSWER" for this challenge
+		#The output which makes the most sense is DAISYDAISYGIVEMEYOURANSWERDO
+		#For this output, the machine used the plugs S-A and D-T
+	CHALLENGE 2:
+		-in the EnigmaMachine class, start() method, uncomment the code for CHALLENGE 2 (lines 169-182)
+		-in the EnigmaFile class, print() method, uncomment the conditional print for the word "ELECTRIC" (line 69-79)
+		-in the Main class, uncomment "bombeMachine.positionTester(machine);" (line 18)
+
+		#The output for the second challenge is WELLALWAYSBETOGETHERHOWEVERFARITSEEMSWELLALWAYSBETOGETHERTOGETHERINELECTRICDREAMS
+		#The first rotor's positions is 6
+		#The second rotor's positions is 9
+		#The third rotor's positions is 15
+	CHALLENGE 3:
+		-in the EnigmaMachine class, start() method, uncomment the code for CHALLENGE 3 (lines 184-202)
+		-in the EnigmaFile class, print() method, uncomment the conditional print for the word "JAVA" (line 80-90)
+		-in the Main class, uncomment "bombeMachine.rotorTester(machine);" (line 19)
+
+		#The output for the third challenge is ILOVECOFFEEILOVETEAILOVETHEJAVAJIVEANDITLOVESME
+		#The first rotor is type V
+		#The second rotor is type III
+		#The third rotor is type II
+
+The EXTENTION for this coursework consists in converting the input file into appropriate text for encoding/decoding.
+This includes removing any whitespace, capitalising all letters in the file and removing any characters that can’t be encoded, including punctuation.
+The extension code begins in the EnigmaFile class, on line 38.
